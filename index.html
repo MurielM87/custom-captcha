@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/291707f091.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Custom captcha</title>
+    <link rel="icon" type="image/jpg" sizes="32x32" href="1.JPG" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Are you a robot ?</header>
+        <div class="captcha_area">
+            <div class="captcha_img">
+                <img src="captcha-bg.jpg" alt="">
+                <span class="captcha"></span>
+            </div>
+            <button class="reload_btn"><i class="fas fa-redo-alt"></i></button>
+        </div>
+        <form action="#" class="input_area">
+            <input type="text" placeholder="enter captcha" maxlength="6" required>
+            <button class="check_btn">Check</button>
+        </form>
+        <div class="status_txt"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
